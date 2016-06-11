@@ -1,4 +1,4 @@
-var invertTree = function(root) {
+var invertTree = function (root) {
   if (root) {
     var left = root.left ? root.left: null;
     var right = root.right ? root.right: null;
